@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legaluna - Your Legal Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <div class="logo">
+                <i class="fas fa-balance-scale"></i>
+                <h1>Legaluna</h1>
+            </div>
+            <div class="language-toggle">
+                <button id="en-btn" class="active">English</button>
+                <button id="hi-btn">हिंदी</button>
+            </div>
+        </header>
+        
+        <main>
+            <div class="chat-container" id="chat-container">
+                <div class="message bot-message">
+                    <div class="message-content">
+                        <p>Hello! I'm Legaluna, your AI legal assistant for Indian law. How can I help you today?</p>
+                    </div>
+                </div>
+                <!-- Messages will be added here dynamically -->
+            </div>
+            
+            <div class="input-container">
+                <input type="text" id="query-input" placeholder="Ask a legal question..." autocomplete="off">
+                <button id="send-button">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+            
+            <div class="examples-section">
+                <h3>Try asking about:</h3>
+                <div class="examples-container" id="examples-container">
+                    <!-- Examples will be added here dynamically -->
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>Legaluna provides general legal information for educational purposes only. Not legal advice.</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

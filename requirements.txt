@@ -1,0 +1,21 @@
+# Web server
+flask==2.0.1
+flask-cors==3.0.10
+gunicorn==20.1.0
+
+# ML & NLP
+torch==2.0.1
+transformers==4.30.2
+accelerate==0.20.3
+bitsandbytes==0.39.0
+sentence-transformers==2.2.2
+faiss-cpu==1.7.4
+langdetect==1.0.9
+
+# Indic language processing
+indic-nlp-library==0.92
+sacremoses==0.0.53
+
+# Utilities
+numpy==1.24.3
+requests==2.28.2
